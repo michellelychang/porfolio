@@ -1,0 +1,58 @@
+baseURL: 
+languageCode: en-us
+title: Michelle Chang
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    title: "Michelle Chang"
+    subtitle: "Teacher | Educational Researcher | MPhil Student"
+
+  socialIcons:
+  - name: email
+    url: "mailto:clymich@gmail.com"
+  - name: twitter
+    url: "twitter.com/@CLYMichelle" 
+  - name: medium
+    url: "medium.com"
+
+    env: production
+
+  cover:
+    linkFullImages: false
+
+  ShowBreadCrumbs: true 
+
+  ShowReadingTime: true
+
+  ShowShareButtons: false
+
+  ShowPostNavLinks: true
+
+  comments: true  
+
+  enableEmoji: true
+
+menu:
+  main:
+  - identifier: about
+    name: About
+    url: /about/
+    weight: 1
+
+  - identifier: blog
+    name: Blog
+    url: /blog/
+    weight: 10
+
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 20
+
+  - identifier: search
+    name: Search
+    url: /search/
+    weight: 30
+
